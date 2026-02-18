@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  movie-app:
+    build: .
+    container_name: movie-holic-container
+    ports:
+      - "80:80"
+    restart: always
