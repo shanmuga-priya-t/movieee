@@ -1,9 +1,13 @@
 version: '3.8'
-
 services:
-  movie-app:
+  frontend:
     build: .
-    container_name: movie-holic-container
     ports:
       - "80:80"
-    restart: always
+    depends_on:
+      - backend
+
+  backend:
+    build: ./backend
+    ports:
+      - "5000:5000"
