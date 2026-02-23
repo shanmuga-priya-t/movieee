@@ -1,5 +1,5 @@
 const BASE_URL = "/api/movies";
-const IMG_URL = "script.js";
+const IMG_URL = "https://image.tmdb.org/t/p/w500";
 const movieContainer = document.getElementById("movie-container");
 
 // 1. Backend-la irundhu movies fetch panna
