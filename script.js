@@ -1,4 +1,4 @@
-const BASE_URL = "";
+const BASE_URL = "http://localhost:5000/api/movies";
 const IMG_URL = "";
 const movieContainer = document.getElementById("movie-container");
 
