@@ -1,5 +1,5 @@
-const BASE_URL = "http://localhost:5000/api/movies";
-const IMG_URL = "";
+const BASE_URL = "/api/movies";
+const IMG_URL = "script.js";
 const movieContainer = document.getElementById("movie-container");
 
 // 1. Backend-la irundhu movies fetch panna
